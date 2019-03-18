@@ -1,0 +1,62 @@
+.mod-content {
+    padding: 10px 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    font-weight: lighter;
+    box-shadow: 3px 5px 5px #c7c9ca;
+}
+
+
+.aui-toolbar .toolbar-group .toolbar-trigger, .aui-toolbar .aui-dd-parent a.aui-dd-trigger {
+    box-sizing: border-box;
+    background: #797676;
+    border: 1px solid transparent;
+    color: #f5f5f5;
+    display: inline-block;
+    margin: 0;
+    padding: 6px 12px;
+    text-decoration: none;
+    vertical-align: baseline;
+    height: auto;
+    text-indent: 0;
+    width: auto;
+    float: left;
+    border-radius: 5px;
+    letter-spacing: 0.6px;
+}
+
+.container .issue-header .issue-header-content .command-bar {
+    border-top: none;
+    background: #f5f5f5;
+    box-shadow: 1px 3px 10px #c3bfbf;
+    margin-bottom: 15px;
+}
+
+.aui-toolbar .aui-icon {
+    color: #ffffff;
+}
+
+ul.labels li .lozenge {
+    border: 1px solid #b1d0ef !important;
+    border-radius: 20px;
+}
+
+ul.labels li .lozenge {
+    background: #dfefff;
+    border: 1px solid #ccc;
+    border-radius: 3.01px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 1px 5px;
+    margin: 0 3px 0 0;
+    text-align: left;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
