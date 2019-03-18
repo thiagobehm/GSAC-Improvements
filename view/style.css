@@ -28,6 +28,10 @@
     letter-spacing: 0.6px;
 }
 
+ li.toolbar-item:hover > a.toolbar-trigger > .aui-toolbar .aui-icon {
+    color: #000;
+ }
+
 .container .issue-header .issue-header-content .command-bar {
     border-top: none;
     background: #f5f5f5;
