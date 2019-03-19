@@ -29,7 +29,7 @@
 }
 
 a.toolbar-trigger:hover > .aui-toolbar .aui-icon {
-    color: #000;
+    color: #000 !important;
  }
 
 .container .issue-header .issue-header-content .command-bar {
