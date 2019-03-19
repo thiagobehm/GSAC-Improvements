@@ -1,11 +1,29 @@
+#summary-val {
+    color: #206ccc;
+    letter-spacing: 1.5px;
+}
+
+.issue-header .issue-header-content>.aui-page-header {
+    background: whitesmoke;
+}
+
+.issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2, .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4, .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
+    background-color: #f5f5f5;
+}
+
+.issue-body-content {
+    background: whitesmoke;
+}
+
 .mod-content {
     padding: 15px 20px !important;
-    background: #f5f5f5;
+    background: #efefef;
     border-radius: 10px;
     letter-spacing: 0.3px;
     line-height: 25px;
     font-weight: lighter;
     box-shadow: 3px 5px 5px #c7c9ca;
+    border: 1px solid #dcdcdc
 }
 
 
@@ -29,7 +47,7 @@
 }
 
 .container .issue-header .issue-header-content .command-bar {
-    border-top: none;
+    border-top: 1px solid black;
     background: #f5f5f5;
     box-shadow: 1px 3px 10px #c3bfbf;
     margin-bottom: 15px;
