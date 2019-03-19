@@ -82,12 +82,12 @@ ul.labels li .lozenge {
 
 .stickyPeople {
     position: fixed;
-    top: 210px;
+    top: 225px;
     margin-right: 15px;
 }
 
 .stickyGovernator {
     position: fixed;
-    top: 535px;
+    top: 495px;
     margin-right: 15px;
 }
