@@ -77,11 +77,9 @@ ul.labels li .lozenge {
 .stickySLA {
     position: fixed;
     top: 45px;
-    transition: 1s;
 }
 
 .stickyPeople {
-    transition: 1s;
     position: fixed;
     top: 250px;
 }
