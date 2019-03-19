@@ -28,7 +28,7 @@
     letter-spacing: 0.6px;
 }
 
- li.toolbar-item:hover > a.toolbar-trigger > .aui-toolbar .aui-icon {
+a.toolbar-trigger:hover > .aui-toolbar .aui-icon {
     color: #000;
  }
 
