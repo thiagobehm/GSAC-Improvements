@@ -1,4 +1,4 @@
-// ==UserScript==
+// ==/UserScript==
 // @name         UI Improvements for GSAC
 // @namespace    http://tampermonkey.net/
 // @version      0.1
@@ -10,7 +10,8 @@
 // @resource css_file https://raw.githubusercontent.com/thiagobehm/GSAC-Improvements/master/view/style.css
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
-// @noframes
+// ==/UserScript==
+
 (function($) {
     'use strict';
 
