@@ -96,3 +96,8 @@ ul.labels li .lozenge {
 #dashboard>.vertical.tabs+#dashboard-content {
     margin-left: 0 !important;
 }
+
+#dashboard .vertical.tabs {
+    display: none;
+}
+
