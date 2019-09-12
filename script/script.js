@@ -5,8 +5,8 @@
 // @description  try to take over the world!
 // @author       Thiago Behm
 // @match        https://getsupport.atlassian.com/*
-// @updateURL    
-// @downloadURL  
+// @updateURL    https://raw.githubusercontent.com/thiagobehm/GSAC-Improvements/master/script/script.js
+// @downloadURL  https://raw.githubusercontent.com/thiagobehm/GSAC-Improvements/master/script/script.js
 // @resource css_file https://raw.githubusercontent.com/thiagobehm/GSAC-Improvements/master/view/style.css
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
