@@ -97,11 +97,8 @@ ul.labels li .lozenge {
     margin-left: 0 !important;
 }
 
-#dashboard .vertical.tabs {
-    display: none;
-}
 
-.test {
+/*.test {
   height: 25px;
   width: 25px;;
   background: #000;
@@ -120,4 +117,4 @@ ul.labels li .lozenge {
 .test:hover {
   background: #dfe1e6;
   color: #000;
-}
+}*/
