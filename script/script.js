@@ -24,6 +24,11 @@
         //add the time tracking at the end of the page
         $('#timetrackingmodule').insertAfter('#slack-viewissue-panel');
 
+        let div = document.createElement("DIV");   
+        div.innerHTML = ">>";
+        div.className = 'test';                    
+        document.body.appendChild(div);               
+
     }
     let body = $('body');
     //add event listener to sticky the side panel
