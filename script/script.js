@@ -11,8 +11,6 @@
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @noframes
-// ==/UserScript==
-
 (function($) {
     'use strict';
 
