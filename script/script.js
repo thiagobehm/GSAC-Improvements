@@ -1,4 +1,4 @@
-// ==/UserScript==
+// ==UserScript==
 // @name         UI Improvements for GSAC
 // @namespace    http://tampermonkey.net/
 // @version      0.1
