@@ -111,7 +111,7 @@ ul.labels li .lozenge {
   display: flex;
   justify-content: center;
   padding-top: 7px;
-  border-radius: 10px;
+  border-radius: 50%;
   cursor: pointer;
   position: absolute;
   top: 120px;
