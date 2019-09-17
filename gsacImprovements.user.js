@@ -27,9 +27,11 @@
         div.innerHTML = ">>";
         div.className = 'test';                    
         document.body.appendChild(div); 
+        console.log(div);
         div.addEventListener('click', (event) =>{
-            let content = document.querySelector('#dashboard-content');  
-            alert('ola');
+            let content = document.querySelector('#dashboard-content');
+            content.style.marginLeft = "180px"
+
         })
     }
     let body = $('body');
