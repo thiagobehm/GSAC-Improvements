@@ -107,17 +107,16 @@ ul.labels li .lozenge {
   background: #dfe1e6;
   color: #000;
   font-size: 22px;
-  line-height: 19px;
+  line-height: 21px;
   display: flex;
   justify-content: center;
-  padding-top: 7px;
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
   top: 120px;
   left: 175px;
   transition: 0.45s;
-  
+
 }
 
 .sidebar-button:hover {
