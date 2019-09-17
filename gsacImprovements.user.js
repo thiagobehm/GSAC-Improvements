@@ -26,7 +26,7 @@
         //only toogles the sidebar button within a dashboard page
         if(window.location.pathname.startsWith('/secure/Dashboard')) {
             let div = document.createElement('DIV');   
-            div.innerHTML = ">>";
+            div.innerHTML = "≡";
             div.className = 'sidebar-button';                    
             document.body.appendChild(div);
 
