@@ -23,19 +23,23 @@
         //add the time tracking at the end of the page
         $('#timetrackingmodule').insertAfter('#slack-viewissue-panel');
 
-        let div = document.createElement('DIV');   
-        div.innerHTML = ">>";
-        div.className = 'sidebar-button';                    
-        document.body.appendChild(div);
+        //only toogles the sidebar button within a dashboard page
+        if(window.location.pathname.startsWith('/secure/Dashboard')) {
+            let div = document.createElement('DIV');   
+            div.innerHTML = ">>";
+            div.className = 'sidebar-button';                    
+            document.body.appendChild(div);
 
-        div.addEventListener('click', (event) =>{
-            let content = document.querySelector('#dashboard-content');
-            let sidebar = document.querySelector('.sidebar-button');
-            
-            $(content).toggleClass('removeSidePanel');
-            $(sidebar).toggleClass('slide-sidebar-button');
-        })
-    }
+            //listener to toogle the sidebar
+            div.addEventListener('click', (event) =>{
+                let content = document.querySelector('#dashboard-content');
+                let sidebar = document.querySelector('.sidebar-button');
+
+                $(content).toggleClass('removeSidePanel');
+                $(sidebar).toggleClass('slide-sidebar-button');
+            })//event listener
+    }//if 
+}
     
     //add event listener to sticky the side panel
     window.onscroll = function() {stickyPanel()};
