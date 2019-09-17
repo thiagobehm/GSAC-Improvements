@@ -112,7 +112,7 @@ ul.labels li .lozenge {
   padding-top: 7px;
   border-radius: 10px;
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 120px;
   left: 175px;
   transition: 0.45s;

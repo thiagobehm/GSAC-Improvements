@@ -30,20 +30,16 @@
 
         div.addEventListener('click', (event) =>{
             let content = document.querySelector('#dashboard-content');
-            // content.style.marginLeft = "180px !important"
+            let sidebar = document.querySelector('.sidebar-button');
+            
             $(content).toggleClass('removeSidePanel');
+            $(sidebar).toggleClass('slide-sidebar-button');
         })
     }
-    let body = $('body');
+    
     //add event listener to sticky the side panel
     window.onscroll = function() {stickyPanel()};
-    /*
-    TODO
-    window.onkeypress = (e) => {
-      if(e.srcElement.tagName === 'BODY')
-        return;
-    };
-    */
+    
 
 function stickyPanel () {
     //gets the positions of activitymodule which is used as base to fix the panel
