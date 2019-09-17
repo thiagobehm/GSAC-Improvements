@@ -22,16 +22,16 @@
         $('#timetrackingmodule').removeClass('expanded').addClass('collapsed')
         //add the time tracking at the end of the page
         $('#timetrackingmodule').insertAfter('#slack-viewissue-panel');
-        alert('ola')
+
         let div = document.createElement('DIV');   
         div.innerHTML = ">>";
         div.className = 'test';                    
-        document.body.appendChild(div); 
-        console.log(div);
+        document.body.appendChild(div);
+
         div.addEventListener('click', (event) =>{
+            alert("event");
             let content = document.querySelector('#dashboard-content');
             content.style.marginLeft = "180px"
-
         })
     }
     let body = $('body');
