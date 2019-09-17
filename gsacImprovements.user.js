@@ -31,7 +31,7 @@
         div.addEventListener('click', (event) =>{
             let content = document.querySelector('#dashboard-content');
             // content.style.marginLeft = "180px !important"
-            content.toggleClass('removeSidePanel');
+            $(content).toggleClass('removeSidePanel');
         })
     }
     let body = $('body');

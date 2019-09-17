@@ -94,7 +94,7 @@ ul.labels li .lozenge {
 
 /*removes side left panel of the dashboard*/
 #dashboard>.vertical.tabs+#dashboard-content {
-    transition: 2s;
+    transition: 0.45s;
 }
 
 .removeSidePanel {
