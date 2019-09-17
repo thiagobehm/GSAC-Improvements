@@ -25,7 +25,7 @@
 
         let div = document.createElement('DIV');   
         div.innerHTML = ">>";
-        div.className = 'expand-sidebar';                    
+        div.className = 'sidebar-button';                    
         document.body.appendChild(div);
 
         div.addEventListener('click', (event) =>{

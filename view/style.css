@@ -101,7 +101,7 @@ ul.labels li .lozenge {
   margin-left: 0 !important; 
 }
 
-.expand-sidebar {
+.sidebar-button {
   height: 25px;
   width: 25px;;
   background: #000;
@@ -114,10 +114,15 @@ ul.labels li .lozenge {
   cursor: pointer;
   position: fixed;
   top: 120px;
-  left: 10px;
+  left: 175px;
+  transition: 0.45s;
 }
 
-.expand-sidebar:hover {
+.sidebar-button:hover {
   background: #dfe1e6;
   color: #000;
+}
+
+.slide-sidebar-button {
+  left: 10px;
 }
