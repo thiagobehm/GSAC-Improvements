@@ -25,13 +25,13 @@
 
         let div = document.createElement('DIV');   
         div.innerHTML = ">>";
-        div.className = 'test';                    
+        div.className = 'expand-sidebar';                    
         document.body.appendChild(div);
 
         div.addEventListener('click', (event) =>{
-            alert("event");
             let content = document.querySelector('#dashboard-content');
-            content.style.marginLeft = "180px"
+            // content.style.marginLeft = "180px !important"
+            content.toggleClass('removeSidePanel');
         })
     }
     let body = $('body');

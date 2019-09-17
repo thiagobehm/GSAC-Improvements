@@ -94,11 +94,14 @@ ul.labels li .lozenge {
 
 /*removes side left panel of the dashboard*/
 #dashboard>.vertical.tabs+#dashboard-content {
-    margin-left: 0 !important;
+    transition: 2s;
 }
 
+.removeSidePanel {
+  margin-left: 0 !important; 
+}
 
-.test {
+.expand-sidebar {
   height: 25px;
   width: 25px;;
   background: #000;
@@ -114,7 +117,7 @@ ul.labels li .lozenge {
   left: 10px;
 }
 
-.test:hover {
+.expand-sidebar:hover {
   background: #dfe1e6;
   color: #000;
 }
