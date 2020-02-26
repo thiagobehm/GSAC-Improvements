@@ -34,7 +34,15 @@
             div.addEventListener('click', (event) =>{
                 let content = document.querySelector('#dashboard-content');
                 let sidebar = document.querySelector('.sidebar-button');
+                // let checked = localStorage.getItem('checked');
 
+                // if (checked && checked === 'false') {
+                //     localStorage.setItem('checked', 'true')
+                // } else { 
+                //     if (checked && checked === 'true') {
+                //         localStorage.setItem('checked', 'false')
+                //     }
+                // }//else
                 $(content).toggleClass('removeSidePanel');
                 $(sidebar).toggleClass('slide-sidebar-button');
             })//event listener
