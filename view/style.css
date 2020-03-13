@@ -92,6 +92,9 @@ ul.labels li .lozenge {
     margin-right: 15px;
 }
 
+.sd-customer-portal-panel .sd-rt-preview {
+    padding-top: 10px;
+}
 .stickyCustomerPortalLink {
     position: fixed;
     top: 0px;
