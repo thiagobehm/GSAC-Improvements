@@ -96,7 +96,8 @@ ul.labels li .lozenge {
     position: fixed;
     top: 0px;
     right: 25%;
-    padding: 5px;
+    padding: 0;
+    margin: 5px;
 }
 
 .stickyCustomerPortalLink a {
