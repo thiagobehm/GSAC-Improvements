@@ -92,38 +92,45 @@ ul.labels li .lozenge {
     margin-right: 15px;
 }
 
+.stickyCustomerPortalLink {
+    position: fixed;
+    top: 410px;
+    right: 250px;
+}
+
 /*removes side left panel of the dashboard*/
 #dashboard>.vertical.tabs+#dashboard-content {
     transition: 0.45s;
 }
 
 .removeSidePanel {
-  margin-left: 0 !important; 
+    margin-left: 0 !important; 
 }
 
 .sidebar-button {
-  height: 25px;
-  width: 25px;;
-  background: #dfe1e6;
-  color: #000;
-  font-size: 22px;
-  line-height: 21px;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  cursor: pointer;
-  position: absolute;
-  top: 120px;
-  left: 175px;
-  transition: 0.45s;
-
+    height: 25px;
+    width: 25px;;
+    background: #dfe1e6;
+    color: #000;
+    font-size: 22px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 120px;
+    left: 175px;
+    transition: 0.45s;
+    
 }
 
 .sidebar-button:hover {
-  background: #000;
-  color: #fff;
+    background: #000;
+    color: #fff;
 }
 
 .slide-sidebar-button {
-  left: 10px;
+    left: 10px;
 }
+

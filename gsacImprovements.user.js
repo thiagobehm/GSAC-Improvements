@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         UI Improvements for GSAC
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       Thiago Behm
 // @match        https://getsupport.atlassian.com/*
@@ -61,10 +61,12 @@ function stickyPanel () {
     	$('#sla-web-panel').addClass('stickySLA');
      	$('#peoplemodule').addClass('stickyPeople');
         $('#tenant-tab').addClass('stickyGovernator');
+        $('.sd-rt-preview').addClass('stickyCustomerPortalLink');
      } else {
      	$('#sla-web-panel').removeClass('stickySLA');
      	$('#peoplemodule').removeClass('stickyPeople');
          $('#tenant-tab').removeClass('stickyGovernator');
+         $('.sd-rt-preview').removeClass('stickyCustomerPortalLink');
 	}//else
 }//stickyPanel()
 
